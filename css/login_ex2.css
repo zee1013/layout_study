@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+/* 전체 박스 */
+.login-box{
+    width: 300px;
+    padding: 10px;
+    margin: 30px auto;
+    background-color: grey;
+}
+/* 로고 이미지 */
+.logo{
+    width: 180px;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    background-color: aliceblue;
+}
+.logo img{
+    width: 100%;
+}
+/* 입력 박스 */
+.form-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.form-wrap input{
+    margin: 5px;
+    padding: 10px;
+}
+.checkbox input{
+    margin: 5px;
+}
+/* 비밀번호 관련 */
+.pw-box{
+    display: flex;
+}
+/* 로그인 버튼 */
+button{
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+}
